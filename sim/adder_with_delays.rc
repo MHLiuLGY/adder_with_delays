@@ -1,0 +1,137 @@
+Magic 271485
+Revision Verdi3_K-2015.09
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 28 1781 433 295 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/crazy/Project/adder_with_delays/sim/adder_with_delays.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 71710.000000
+cursor 0.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 83
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/crazy/Project/adder_with_delays/sim/adder_with_delays.fsdb"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t1[3:0]
+addSignal -h 15 -holdScope co_t1
+addGroup "G2"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t7a[3:0]
+addSignal -h 15 -holdScope co_t7a
+addGroup "G3"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t7b[3:0]
+addSignal -h 15 -holdScope co_t7b
+addGroup "G4"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t6[3:0]
+addSignal -h 15 -holdScope co_t6
+addGroup "G5"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t11a[3:0]
+addSignal -h 15 -holdScope co_t11a
+addGroup "G6"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t11b[3:0]
+addSignal -h 15 -holdScope co_t11b
+addGroup "G7"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t2[3:0]
+addSignal -h 15 -holdScope co_t2
+addGroup "G8"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t3[3:0]
+addSignal -h 15 -holdScope co_t3
+addGroup "G9"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t9c[3:0]
+addSignal -h 15 -holdScope co_t9c
+addGroup "G10"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t9d[3:0]
+addSignal -h 15 -holdScope co_t9d
+addGroup "G11"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t4[3:0]
+addSignal -h 15 -holdScope co_t4
+addGroup "G12"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t10a[3:0]
+addSignal -h 15 -holdScope co_t10a
+addGroup "G13"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t10b[3:0]
+addSignal -h 15 -holdScope co_t10b
+addGroup "G14"
+addSignal -h 15 -UNSIGNED -HEX /adder_with_delays_tb/a[3:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope b[3:0]
+addSignal -h 15 -holdScope ci
+addSignal -h 15 -UNSIGNED -HEX -holdScope sum_t5[3:0]
+addSignal -h 15 -holdScope co_t5
+addGroup "G15"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+
